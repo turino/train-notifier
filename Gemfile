@@ -14,12 +14,14 @@ gem "bootsnap", ">= 1.4.4", require: false
 
 group :development, :test do
   gem "pry-byebug"
+  gem "rspec-rails"
   gem "rubocop", require: false
 end
 
 group :development do
   gem "listen", "~> 3.3"
   gem "spring"
+  gem "spring-commands-rspec"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
